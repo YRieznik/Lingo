@@ -7,13 +7,18 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   .phone {
-    width: auto;
-    height: auto;
+    background-image: url(../img/blackwhite.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    max-width: 100%;
   }
   .options {
     width: 485px;
     height: 410px;
     margin-top: 150px;
+
     .sale-text {
       .corp-name {
         font-family: 'Open Sans', sans-serif;
