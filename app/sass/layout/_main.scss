@@ -1,0 +1,379 @@
+main {
+  margin-top: 115px;
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  .phone {
+    width: auto;
+    height: auto;
+  }
+  .options {
+    width: 485px;
+    height: 410px;
+    margin-top: 150px;
+    .sale-text {
+      .corp-name {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        color: rgb(50,50,50);
+        margin: 0;
+      }
+      .corp-text {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: lighter;
+        color: rgb(50,50,50);
+      }
+    }
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .google_store {
+        cursor: pointer;
+        border-radius: 25px;
+        background-color: black;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        color: white;
+        .logo {
+          float: left;
+          padding-top: 10px;
+          padding-left: 20px;
+        }
+        .logo-text {
+          margin: 0;
+          padding-top: 5px;
+          padding-right: 20px;
+          float: right;
+          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
+          color: white;
+        }
+        .logo-text::after {
+          content: "GOOGLE PLAY";
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+          font-size: 14px;
+          color:white;
+          padding-right: 15px;
+        }
+      }
+      .apple_store {
+        margin-right: 25px;
+        border-width: 1px;
+        border-color: lightgrey;
+        border-style: solid;
+        cursor: pointer;
+        border-radius: 25px;
+        background-color: white;
+        width: 200px;
+        height: 50px;
+        .logo {
+          float: left;
+          padding-top: 8px;
+          padding-left: 20px;
+        }
+        .logo-text {
+          margin: 0;
+          padding-top: 5px;
+          padding-right: 20px;
+          float: right;
+          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
+          color: lightgrey;
+        }
+        .logo-text::after {
+          content: "APP STORE";
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+          font-size: 14px;
+          color:lightgrey;
+          padding-right: 15px;
+        }
+      }
+      .chrome_store {
+        border-width: 1px;
+        border-color: lightgrey;
+        border-style: solid;
+        cursor: pointer;
+        border-radius: 25px;
+        background-color: white;
+        width: 200px;
+        height: 50px;
+        .logo {
+          float: left;
+          padding-top: 10px;
+          padding-left: 20px;
+        }
+        .logo-text {
+          margin: 0;
+          padding-top: 5px;
+          padding-right: 20px;
+          float: right;
+          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
+          color: lightgrey;
+        }
+        .logo-text::after {
+          content: "CHROME";
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+          font-size: 14px;
+          color: lightgrey;
+          padding-right: 15px;
+        }
+      }
+      .firefox_store {
+        margin-right: 25px;
+        border-width: 1px;
+        border-color: lightgrey;
+        border-style: solid;
+        cursor: pointer;
+        border-radius: 25px;
+        background-color: white;
+        width: 200px;
+        height: 50px;
+        .logo {
+          float: left;
+          padding-top: 10px;
+          padding-left: 20px;
+        }
+        .logo-text {
+          margin: 0;
+          padding-top: 5px;
+          padding-right: 20px;
+          float: right;
+          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
+          color: lightgrey;
+        }
+        .logo-text::after {
+          content: "CHROME";
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+          font-size: 14px;
+          color: lightgrey;
+          padding-right: 15px;
+        }
+
+      }
+    }
+  }
+}
+ /* margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  background-color: green;*/
+  /*.container {
+
+  }*/
+ /* width: 100%;
+  height: auto;
+  .container-section {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 70%;
+    height: 750px;
+    margin: auto;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    .phones {
+      flex-grow: 1;
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+      background-image: url(../img/blackwhite.png);
+      !*background-position: center center;*!
+      background-repeat:  no-repeat;
+    }
+    .options {
+      flex-grow: 1;
+      height: 100%;
+      width: 100%;
+      background-color: red;
+    }
+  }
+}*/
+  /*.container-section {
+    width: 70%;
+    height: 750px;
+    background-color: #0b91a0;
+    display: flex;
+    flex-direction: row;*/
+    /*.phones {
+      height: 100%;
+      width: 100%;
+      flex-grow: 1;
+      .two {
+        height: auto;
+        width: auto;
+      }
+    }
+    .options {
+      height: auto;
+      width: auto;
+      background-color: green;
+      flex-grow: 1;
+      .corp-name {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        color: rgb(50,50,50);
+        margin: 0;
+      }
+      .corp-text {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: lighter;
+        color: rgb(50,50,50);
+      }
+    }
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .google_store {
+        cursor: pointer;
+        border-radius: 25px;
+        margin-bottom: 20px;
+        background-color: black;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        color: white;
+        .logo {
+          float: left;
+          padding-top: 10px;
+          padding-left: 20px;
+        }
+        .logo-text {
+          margin: 0;
+          padding-top: 5px;
+          padding-right: 20px;
+          float: right;
+          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
+          color: white;
+        }
+        .logo-text::after {
+          content: "GOOGLE PLAY";
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+          font-size: 14px;
+          color:white;
+          padding-right: 15px;
+        }
+      }
+      .apple_store {
+        margin-right: 25px;
+        border-width: 1px;
+        border-color: lightgrey;
+        border-style: solid;
+        cursor: pointer;
+        border-radius: 25px;
+        background-color: white;
+        width: 200px;
+        height: 50px;
+        .logo {
+          float: left;
+          padding-top: 8px;
+          padding-left: 20px;
+        }
+        .logo-text {
+          margin: 0;
+          padding-top: 5px;
+          padding-right: 20px;
+          float: right;
+          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
+          color: lightgrey;
+        }
+        .logo-text::after {
+          content: "APP STORE";
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+          font-size: 14px;
+          color:lightgrey;
+          padding-right: 15px;
+        }
+      }
+      .chrome_store {
+        margin-top: 20px;
+        border-width: 1px;
+        border-color: lightgrey;
+        border-style: solid;
+        cursor: pointer;
+        border-radius: 25px;
+        background-color: white;
+        width: 200px;
+        height: 50px;
+        .logo {
+          float: left;
+          padding-top: 10px;
+          padding-left: 20px;
+        }
+        .logo-text {
+          margin: 0;
+          padding-top: 5px;
+          padding-right: 20px;
+          float: right;
+          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
+          color: lightgrey;
+        }
+        .logo-text::after {
+          content: "CHROME";
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+          font-size: 14px;
+          color: lightgrey;
+          padding-right: 15px;
+        }
+      }
+      .firefox_store {
+        margin-right: 25px;
+        margin-top: 20px;
+        border-width: 1px;
+        border-color: lightgrey;
+        border-style: solid;
+        cursor: pointer;
+        border-radius: 25px;
+        background-color: white;
+        width: 200px;
+        height: 50px;
+        .logo {
+          float: left;
+          padding-top: 10px;
+          padding-left: 20px;
+        }
+        .logo-text {
+          margin: 0;
+          padding-top: 5px;
+          padding-right: 20px;
+          float: right;
+          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
+          color: lightgrey;
+        }
+        .logo-text::after {
+          content: "CHROME";
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+          font-size: 14px;
+          color: lightgrey;
+          padding-right: 15px;
+        }
+      }
+    }*/
