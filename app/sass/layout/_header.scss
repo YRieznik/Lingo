@@ -13,19 +13,19 @@ main {
     width: auto;
     height: auto;
     margin-bottom: 110px; /*delete for 375+*/
-    
     .two {
       max-width: 100%;
       height: auto;
     }
   }
   .options {
-    width: 600px;
+    width: 500px;
     height: 400px;
     padding-top: 20px; /*delete for 375+*/
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-left: 100px;
     .corp-name {
       font-family: 'Open Sans', sans-serif;
       font-weight: bold;
@@ -41,6 +41,7 @@ main {
     }
   }
   .buttons {
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
