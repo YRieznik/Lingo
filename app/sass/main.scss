@@ -5,15 +5,15 @@
 html, body {
   padding: 0;
   margin: 0;
-  @media screen and (min-width: 375px) {
+  @media screen and (min-width: 360px) {
     .two {
-      
+
     }
   }
-  @media screen and (min-width: 375px) {
+  @media screen and (min-width: 360px) {
     .buttons {
       justify-content: center;
-      @media screen and (min-width: 375px) {
+      @media screen and (min-width: 360px) {
         .apple_store {
           margin-right: 0;
 
@@ -25,12 +25,12 @@ html, body {
       }
     }
   }
-  @media screen and (min-width: 375px) {
+  @media screen and (min-width: 360px) {
     .corp-name {
 
     }
   }
-  @media screen and (min-width: 375px) {
+  @media screen and (min-width: 360px) {
     .corp-text {
       font-size: 30px;
     }
