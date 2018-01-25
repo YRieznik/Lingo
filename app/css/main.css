@@ -1,5 +1,5 @@
 #footer {
-  position: relative;
+  position: absolute;
   width: 100%;
   height: auto; }
   #footer .corp {
@@ -27,9 +27,10 @@
 main {
   background: url(../img/newbg.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
   height: auto;
-  width: 100%;
+  width: auto;
   position: relative;
   padding-bottom: 100px; }
   main .phone {
@@ -204,30 +205,25 @@ main {
 
 html, body {
   padding: 0;
-  margin: 0;
-  /*@media only screen and (min-width : 320px) and (max-width : 480px) {
-    background-image: url(../img/background.png);
-    background-repeat:  no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }*/ }
-
-html {
-  overflow: hidden;
-  height: 100%; }
-
-body {
-  overflow: auto;
-  height: 100%; }
+  margin: 0; }
 
 /*Mobile S5 Query Start*/
+@media screen and (max-width: 360px) {
+  main .phone .image-wraper {
+    margin-right: 0; } }
+
+@media screen and (max-width: 360px) {
+  main .options .sale-text {
+    width: auto; } }
+
 @media screen and (max-width: 360px) {
   main .buttons .buttons-wrapper {
     width: 100%;
     height: 60%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap;
+    padding-left: 0; } }
 
 @media screen and (max-width: 360px) {
   main .buttons .buttons-wrapper .apple_store {
@@ -256,6 +252,10 @@ body {
 /*Mobile S5 Query End*/
 /*Mobile Iphone 7 Query start*/
 @media screen and (max-width: 375px) {
+  main .options .sale-text {
+    width: auto; } }
+
+@media screen and (max-width: 375px) {
   main .phone {
     padding-top: 0; } }
 
@@ -265,7 +265,8 @@ body {
     height: 60%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap;
+    padding-left: 0; } }
 
 @media screen and (max-width: 375px) {
   main .buttons .buttons-wrapper .apple_store {
@@ -290,6 +291,11 @@ body {
 /*Mobile Iphone 7 Query End*/
 /*Mobile Iphone 7plus Query start*/
 @media screen and (max-width: 414px) {
+  main .options .sale-text {
+    width: auto;
+    padding-left: 0; } }
+
+@media screen and (max-width: 414px) {
   main .phone {
     padding-top: 0; } }
 
@@ -299,7 +305,8 @@ body {
     height: 60%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap;
+    padding-left: 0; } }
 
 @media screen and (max-width: 414px) {
   main .buttons .buttons-wrapper .apple_store {
@@ -310,3 +317,25 @@ body {
     margin-right: 0; } }
 
 /*Mobile Iphone 7plus Query End*/
+/*Mobile Ipad 768 Query Start*/
+@media screen and (max-width: 768px) {
+  main .options .sale-text {
+    width: auto;
+    padding-left: 0; } }
+
+@media screen and (max-width: 768px) {
+  main .buttons .buttons-wrapper {
+    padding-left: 0; } }
+
+/*Mobile Ipad 768 Query End*/
+/*Mobile Ipad 1024 Query Start*/
+@media screen and (max-width: 1024px) {
+  main .options .sale-text {
+    width: auto;
+    padding-left: 0; } }
+
+@media screen and (max-width: 1024px) {
+  main .buttons .buttons-wrapper {
+    padding-left: 0; } }
+
+/*Mobile Ipad 1024 Query End*/

@@ -1,9 +1,10 @@
 main {
   background: url(../img/newbg.jpg);
   background-repeat:  no-repeat;
+  background-size: cover;
   background-attachment: fixed;
   height: auto;
-  width: 100%;
+  width: auto;
   position: relative;
   padding-bottom: 100px;
   .phone {
@@ -203,6 +204,5 @@ main {
         }
       }
     }
-
   }
 }
