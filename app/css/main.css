@@ -49,8 +49,11 @@ main {
     /*delete for 375+*/
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin-left: 100px; }
+    flex-direction: column; }
+    @media screen and (min-width: 375px) {
+      main .options .options {
+        max-width: 100%;
+        height: auto; } }
     main .options .corp-name {
       font-family: 'Open Sans', sans-serif;
       font-weight: bold;
@@ -204,11 +207,13 @@ html, body {
     background-attachment: fixed;
   }*/ }
   @media screen and (min-width: 375px) {
-    html .phone, body .phone {
-      margin-top: 200px; } }
-  @media screen and (min-width: 375px) {
-    html .options, body .options {
-      margin-left: 0; } }
-  @media screen and (min-width: 375px) {
     html .buttons, body .buttons {
-      width: 500px; } }
+      justify-content: center; } }
+  @media screen and (min-width: 375px) and (min-width: 375px) {
+    html .buttons .apple_store, body .buttons .apple_store {
+      margin-right: 0; }
+    html .buttons .firefox_store, body .buttons .firefox_store {
+      margin-right: 0; } }
+  @media screen and (min-width: 375px) {
+    html .corp-text, body .corp-text {
+      font-size: 30px; } }

@@ -9,6 +9,7 @@ main {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+
   .phone {
     width: auto;
     height: auto;
@@ -25,7 +26,12 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 100px;
+    @media screen and (min-width: 375px) {
+      .options {
+        max-width: 100%;
+        height: auto;
+      }
+    }
     .corp-name {
       font-family: 'Open Sans', sans-serif;
       font-weight: bold;
@@ -89,6 +95,7 @@ main {
       background-color: white;
       width: 200px;
       height: 50px;
+
       .logo {
         float: left;
         padding-top: 8px;
