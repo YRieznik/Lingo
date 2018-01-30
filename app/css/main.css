@@ -45,7 +45,7 @@ main {
     align-items: center; }
     main .phone .image-wraper {
       margin-right: 30px;
-      background: url(../img/blackwhite.png);
+      background-image: url(../img/blackwhite.png);
       height: 700px;
       width: 600px;
       /*dobavil bg*/ }
@@ -217,7 +217,10 @@ html, body {
 /*Mobile S5 Query Start*/
 @media screen and (max-width: 360px) {
   main .phone .image-wraper {
-    margin-right: 0; } }
+    margin-right: 0;
+    background-image: url(../img/300x400.png);
+    background-repeat: no-repeat;
+    height: 420px; } }
 
 @media screen and (max-width: 360px) {
   main .options .sale-text {

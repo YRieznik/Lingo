@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bb0c43d-27d3-4bf4-882b-a851a815d850" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/5.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/layout/_header.scss" afterPath="$PROJECT_DIR$/app/sass/layout/_header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.scss" afterPath="$PROJECT_DIR$/app/sass/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick-theme.css" afterPath="$PROJECT_DIR$/slick-theme.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,21 +22,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            <state relative-caret-position="374">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/layout/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="210" column="2" lean-forward="false" selection-start-line="210" selection-start-column="2" selection-end-line="210" selection-end-column="2" />
+            <state relative-caret-position="357">
+              <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -48,8 +45,28 @@
       <file leaf-file-name="slick.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/slick.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+            <state relative-caret-position="1322">
+              <caret line="118" column="22" lean-forward="false" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slick.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/slick.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="47" column="102" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="47" selection-end-column="102" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slider.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/slider.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -58,8 +75,8 @@
       <file leaf-file-name="slick-theme.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slick-theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3298">
-              <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+            <state relative-caret-position="574">
+              <caret line="165" column="17" lean-forward="true" selection-start-line="165" selection-start-column="17" selection-end-line="165" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -68,8 +85,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1883">
-              <caret line="175" column="76" lean-forward="false" selection-start-line="175" selection-start-column="76" selection-end-line="175" selection-end-column="76" />
+            <state relative-caret-position="272">
+              <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -100,6 +117,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>bor</find>
+      <find>conte</find>
+      <find>dots</find>
+      <find>slick-dots</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,13 +131,14 @@
         <option value="$PROJECT_DIR$/app/css/main.css" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/sass/layout/_main.scss" />
-        <option value="$PROJECT_DIR$/app/sass/main.scss" />
         <option value="$PROJECT_DIR$/app/sass/layout/_footer.scss" />
-        <option value="$PROJECT_DIR$/app/js/slider.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/slick-theme.css" />
         <option value="$PROJECT_DIR$/app/slick.css" />
+        <option value="$PROJECT_DIR$/app/js/slider.js" />
+        <option value="$PROJECT_DIR$/app/js/slick.js" />
+        <option value="$PROJECT_DIR$/slick-theme.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/sass/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/app/sass/main.scss" />
       </list>
     </option>
   </component>
@@ -131,8 +152,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="148" />
-    <option name="y" value="294" />
+    <option name="x" value="118" />
+    <option name="y" value="277" />
     <option name="width" value="1722" />
     <option name="height" value="850" />
   </component>
@@ -272,24 +293,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lingo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lingo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -412,15 +415,15 @@
       <workItem from="1516825536780" duration="17846000" />
       <workItem from="1516885479148" duration="24524000" />
       <workItem from="1517241898231" duration="1182000" />
-      <workItem from="1517297225426" duration="6724000" />
+      <workItem from="1517297225426" duration="10777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74036000" />
+    <option name="totallyTimeSpent" value="78089000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="148" y="294" width="1722" height="850" extended-state="0" />
+    <frame x="118" y="277" width="1722" height="850" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14830011" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -626,58 +629,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/slick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
+    <entry file="file://$PROJECT_DIR$/app/js/slick.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1883">
-          <caret line="175" column="76" lean-forward="false" selection-start-line="175" selection-start-column="76" selection-end-line="175" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        <state relative-caret-position="391">
+          <caret line="47" column="102" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="47" selection-end-column="102" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/slick.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        <state relative-caret-position="1322">
+          <caret line="118" column="22" lean-forward="false" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/slick-theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3298">
-          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+        <state relative-caret-position="574">
+          <caret line="165" column="17" lean-forward="true" selection-start-line="165" selection-start-column="17" selection-end-line="165" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/layout/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="210" column="2" lean-forward="false" selection-start-line="210" selection-start-column="2" selection-end-line="210" selection-end-column="2" />
+        <state relative-caret-position="357">
+          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding />
         </state>
       </provider>

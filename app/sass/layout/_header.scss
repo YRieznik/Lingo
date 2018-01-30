@@ -19,7 +19,7 @@ main {
     align-items: center;
     .image-wraper{
       margin-right: 30px;
-      background: url(../img/blackwhite.png);
+      background-image: url(../img/blackwhite.png);
       height: 700px;
       width: 600px; /*dobavil bg*/
     }
@@ -208,7 +208,7 @@ main {
 .slides {
   width: 100%;
   height: 100%;
-  
+
   /*padding-left: 278px;
   padding-top: 100px;*/
   }

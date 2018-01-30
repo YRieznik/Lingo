@@ -7,10 +7,14 @@ html, body {
   margin: 0;
 }
                                                           /*Mobile S5 Query Start*/
+
+
 @media screen and (max-width:360px) {
   main .phone .image-wraper {
     margin-right: 0;
-
+    background-image: url(../img/300x400.png);
+    background-repeat: no-repeat;
+    height: 420px;
   }
 }
 @media screen and (max-width:360px) {
