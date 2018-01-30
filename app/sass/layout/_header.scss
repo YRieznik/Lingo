@@ -4,7 +4,7 @@ main {
   background-size: cover;
   background-attachment: fixed;
   height: auto;
-  width: auto;
+  width: 100%;
   position: relative;
   padding-bottom: 100px;
   .phone {
@@ -19,10 +19,9 @@ main {
     align-items: center;
     .image-wraper{
       margin-right: 30px;
-      .two {
-        max-width: 100%;
-        height: auto;
-      }
+      background: url(../img/blackwhite.png);
+      height: 700px;
+      width: 600px; /*dobavil bg*/
     }
 
   }
@@ -206,3 +205,10 @@ main {
     }
   }
 }
+.slides {
+  width: 100%;
+  height: 100%;
+  
+  /*padding-left: 278px;
+  padding-top: 100px;*/
+  }
