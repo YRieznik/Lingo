@@ -300,6 +300,13 @@ html, body {
   main .options .corp-name {
     font-size: 30px; } }
 
+main .options .corp-text {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+main .options .corp-name {
+  padding-left: 30px; }
+
 /*Mobile S5 Query End*/
 /*Mobile iPhone 6, 6S, 7 and 8 Query start*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -337,7 +344,12 @@ html, body {
   main .options .corp-text {
     font-size: 15px; }
   main .options .corp-name {
-    font-size: 30px; } }
+    font-size: 30px; }
+  main .options .corp-text {
+    padding-left: 30px;
+    padding-right: 30px; }
+  main .options .corp-name {
+    padding-left: 30px; } }
 
 /*Mobile Iphone 7 Query End*/
 /*Mobile Iphone 7plus Query start*/
@@ -357,6 +369,11 @@ html, body {
   main .options .sale-text {
     width: auto;
     padding-left: 0; }
+  main .options .corp-text {
+    padding-left: 30px;
+    padding-right: 30px; }
+  main .options .corp-name {
+    padding-left: 30px; }
   main .phone {
     padding-top: 0; }
   main .buttons .buttons-wrapper {
@@ -381,6 +398,13 @@ html, body {
 @media screen and (max-width: 768px) {
   main .buttons .buttons-wrapper {
     padding-left: 0; } }
+
+main .options .corp-text {
+  padding-left: 0;
+  padding-right: 0; }
+
+main .options .corp-name {
+  padding-left: 0; }
 
 /*Mobile Ipad 768 Query End*/
 /* Portrait */

@@ -111,6 +111,14 @@ html, body {
     font-size: 30px;
   }
 }
+main .options .corp-text {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+main .options .corp-name {
+  padding-left: 30px;
+}
 
                                                     /*Mobile S5 Query End*/
                                                 /*Mobile iPhone 6, 6S, 7 and 8 Query start*/
@@ -165,6 +173,14 @@ and (orientation: portrait){
   }
   main .options .corp-name {
     font-size: 30px;
+  }
+  main .options .corp-text {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  main .options .corp-name {
+    padding-left: 30px;
   }
 }
 
@@ -222,6 +238,15 @@ and (orientation: portrait){
     width: auto;
     padding-left: 0;
   }
+
+  main .options .corp-text {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  main .options .corp-name {
+    padding-left: 30px;
+  }
   main .phone {
     padding-top: 0;
   }
@@ -275,6 +300,14 @@ and (orientation: portrait){
   main .buttons .buttons-wrapper {
     padding-left: 0;
   }
+}
+main .options .corp-text {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+main .options .corp-name {
+  padding-left: 0;
 }
                                             /*Mobile Ipad 768 Query End*/
 
