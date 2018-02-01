@@ -273,8 +273,7 @@ html, body {
     height: 60%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    padding-left: 0; } }
+    flex-wrap: wrap; } }
 
 @media screen and (max-width: 360px) {
   main .buttons .buttons-wrapper .apple_store {
@@ -342,13 +341,11 @@ main .options .corp-name {
     margin-top: 10px;
     margin-bottom: 10px; }
   main .options .corp-text {
-    font-size: 15px; }
-  main .options .corp-name {
-    font-size: 30px; }
-  main .options .corp-text {
+    font-size: 15px;
     padding-left: 30px;
     padding-right: 30px; }
   main .options .corp-name {
+    font-size: 30px;
     padding-left: 30px; } }
 
 /*Mobile Iphone 7 Query End*/
@@ -399,13 +396,14 @@ main .options .corp-name {
   main .buttons .buttons-wrapper {
     padding-left: 0; } }
 
-main .options .corp-text {
+/*main .options .corp-text {
   padding-left: 0;
-  padding-right: 0; }
+  padding-right: 0;
+}
 
 main .options .corp-name {
-  padding-left: 0; }
-
+  padding-left: 0;
+}*/
 /*Mobile Ipad 768 Query End*/
 /* Portrait */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {

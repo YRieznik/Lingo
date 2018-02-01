@@ -79,7 +79,6 @@ html, body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-left: 0;
   }
 }
 @media screen and (max-width:360px) {
@@ -170,48 +169,22 @@ and (orientation: portrait){
   }
   main .options .corp-text {
     font-size: 15px;
-  }
-  main .options .corp-name {
-    font-size: 30px;
-  }
-  main .options .corp-text {
     padding-left: 30px;
     padding-right: 30px;
   }
+  main .options .corp-name {
+    font-size: 30px;
+    padding-left: 30px;
+  }
+  main .options .corp-text {
+
+  }
 
   main .options .corp-name {
-    padding-left: 30px;
+
   }
 }
 
-@media screen and (max-width:375px) {
-
-}
-@media screen and (max-width:375px) {
-
-}
-@media screen and (max-width: 375px) {
-
-}
-
-@media screen and (max-width: 375px) {
-
-}
-@media screen and (max-width: 375px) {
-
-}
-@media screen and (max-width: 375px) {
-
-}
-@media screen and (max-width: 375px) {
-
-}
-@media screen and (max-width: 375px) {
-
-}
-@media screen and (max-width: 375px) {
-
-}
                                                 /*Mobile Iphone 7 Query End*/
                                               /*Mobile Iphone 7plus Query start*/
 
@@ -268,25 +241,6 @@ and (orientation: portrait){
   }
 }
 
-@media screen and (max-width: 414px) {
-
-}
-
-@media screen and (max-width: 414px) {
-
-}
-@media screen and (max-width: 414px) {
-
-}
-@media screen and (max-width: 414px) {
-
-}
-@media screen and (max-width: 414px) {
-
-}
-@media screen and (max-width: 414px) {
-
-}
                                             /*Mobile Iphone 7plus Query End*/
                                               /*Mobile Ipad 768 Query Start*/
 
@@ -301,14 +255,14 @@ and (orientation: portrait){
     padding-left: 0;
   }
 }
-main .options .corp-text {
+/*main .options .corp-text {
   padding-left: 0;
   padding-right: 0;
 }
 
 main .options .corp-name {
   padding-left: 0;
-}
+}*/
                                             /*Mobile Ipad 768 Query End*/
 
 /* Portrait */

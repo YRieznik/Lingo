@@ -31,7 +31,7 @@
       <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/layout/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="-102">
               <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="51" />
               <folding />
             </state>
@@ -81,8 +81,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="309" column="17" lean-forward="false" selection-start-line="309" selection-start-column="17" selection-end-line="309" selection-end-column="17" />
+            <state relative-caret-position="312">
+              <caret line="80" column="20" lean-forward="false" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -116,6 +116,8 @@
       <find>conte</find>
       <find>dots</find>
       <find>slick-dots</find>
+      <find>padding-left: 0;</find>
+      <find>main .options .corp-text</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -413,12 +415,12 @@
       <workItem from="1517241898231" duration="1182000" />
       <workItem from="1517297225426" duration="11097000" />
       <workItem from="1517381323538" duration="5643000" />
-      <workItem from="1517470062999" duration="6560000" />
+      <workItem from="1517470062999" duration="8923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90612000" />
+    <option name="totallyTimeSpent" value="92975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="196" width="1722" height="850" extended-state="0" />
@@ -787,7 +789,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/layout/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="-102">
           <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="51" />
           <folding />
         </state>
@@ -803,8 +805,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="309" column="17" lean-forward="false" selection-start-line="309" selection-start-column="17" selection-end-line="309" selection-end-column="17" />
+        <state relative-caret-position="312">
+          <caret line="80" column="20" lean-forward="false" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
           <folding />
         </state>
       </provider>
