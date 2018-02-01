@@ -6,6 +6,44 @@ html, body {
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 587px) {
+  main .phone .image-wraper {
+    margin-right: 0;
+    background-image: url(../img/425x500.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 514px;
+    margin-top: 50px;
+  }
+  main .phone {
+    padding-top: 0;
+  }
+  .image-wraper .slick-list {
+    width: 200px;
+    height: 350px;
+    padding-top: 75px;
+    margin-right: 78px;
+  }
+}
+/*@media screen and (max-width: 628px) {
+  main .phone .image-wraper {
+    margin-right: 0;
+    background-image: url(../img/425x500.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 514px;
+    margin-top: 50px;
+  }
+  main .phone {
+    padding-top: 0;
+  }
+  .image-wraper .slick-list {
+    width: 200px;
+    height: 350px;
+    padding-top: 75px;
+  }
+}*/
                                                           /*Mobile S5 Query Start*/
 
 
@@ -18,8 +56,6 @@ html, body {
     height: 420px;
     margin-top: 50px;
   }
-}
-@media screen and (max-width:360px) {
   .image-wraper .slick-list {
     width: 159px;
     height: 350px;
@@ -97,7 +133,7 @@ and (orientation: portrait){
     width: 159px;
     height: 350px;
     padding-top: 61px;
-    margin-right: 42px;
+    margin-right: 41px;
   }
   main .options .sale-text {
     width: auto;
@@ -206,9 +242,7 @@ and (orientation: portrait){
 
   }
 }
-@media screen and (max-width: 414px) {
 
-}
 @media screen and (max-width: 414px) {
 
 }
