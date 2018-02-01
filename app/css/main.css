@@ -220,7 +220,16 @@ html, body {
     margin-right: 0;
     background-image: url(../img/300x400.png);
     background-repeat: no-repeat;
-    height: 420px; } }
+    background-position: center;
+    height: 420px;
+    margin-top: 50px; } }
+
+@media screen and (max-width: 360px) {
+  .image-wraper .slick-list {
+    width: 159px;
+    height: 350px;
+    padding-top: 60px;
+    margin-right: 36px; } }
 
 @media screen and (max-width: 360px) {
   main .options .sale-text {
@@ -260,69 +269,73 @@ html, body {
     font-size: 30px; } }
 
 /*Mobile S5 Query End*/
-/*Mobile Iphone 7 Query start*/
-@media screen and (max-width: 375px) {
+/*Mobile iPhone 6, 6S, 7 and 8 Query start*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  main .phone .image-wraper {
+    margin-right: 0;
+    background-image: url(../img/300x400.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 420px;
+    margin-top: 50px; }
+  .image-wraper .slick-list {
+    width: 159px;
+    height: 350px;
+    padding-top: 61px;
+    margin-right: 42px; }
   main .options .sale-text {
-    width: auto; } }
-
-@media screen and (max-width: 375px) {
+    width: auto; }
   main .phone {
-    padding-top: 0; } }
-
-@media screen and (max-width: 375px) {
+    padding-top: 0; }
   main .buttons .buttons-wrapper {
     width: 100%;
     height: 60%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-left: 0; } }
-
-@media screen and (max-width: 375px) {
+    padding-left: 0; }
   main .buttons .buttons-wrapper .apple_store {
     margin-right: 0;
     margin-top: 10px;
-    margin-bottom: 10px; } }
-
-@media screen and (max-width: 375px) {
+    margin-bottom: 10px; }
   main .buttons .buttons-wrapper .firefox_store {
     margin-right: 0;
     margin-top: 10px;
-    margin-bottom: 10px; } }
-
-@media screen and (max-width: 375px) {
+    margin-bottom: 10px; }
   main .options .corp-text {
-    font-size: 15px; } }
-
-@media screen and (max-width: 375px) {
+    font-size: 15px; }
   main .options .corp-name {
     font-size: 30px; } }
 
 /*Mobile Iphone 7 Query End*/
 /*Mobile Iphone 7plus Query start*/
-@media screen and (max-width: 414px) {
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  main .phone .image-wraper {
+    margin-right: 0;
+    background-image: url(../img/425x500.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: 50px;
+    background-position: center; }
+  .image-wraper .slick-list {
+    width: 196px;
+    height: 350px;
+    padding-top: 67px;
+    margin-right: 29px; }
   main .options .sale-text {
     width: auto;
-    padding-left: 0; } }
-
-@media screen and (max-width: 414px) {
+    padding-left: 0; }
   main .phone {
-    padding-top: 0; } }
-
-@media screen and (max-width: 414px) {
+    padding-top: 0; }
   main .buttons .buttons-wrapper {
     width: 100%;
     height: 60%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-left: 0; } }
-
-@media screen and (max-width: 414px) {
+    padding-left: 0; }
   main .buttons .buttons-wrapper .apple_store {
-    margin-right: 0; } }
-
-@media screen and (max-width: 414px) {
+    margin-right: 0; }
   main .buttons .buttons-wrapper .firefox_store {
     margin-right: 0; } }
 
@@ -338,6 +351,16 @@ html, body {
     padding-left: 0; } }
 
 /*Mobile Ipad 768 Query End*/
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  main .buttons .buttons-wrapper {
+    width: 97%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0; } }
+
 /*Mobile Ipad 1024 Query Start*/
 @media screen and (max-width: 1024px) {
   main .options .sale-text {
