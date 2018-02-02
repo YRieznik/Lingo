@@ -64,13 +64,15 @@ main {
       font-weight: bold;
       font-size: 48px;
       color: #323232;
-      margin: 0; }
+      margin: 0;
+      padding-left: 0; }
     main .options .corp-text {
       font-family: "Open Sans Light" , sans-serif;
       font-size: 18px;
       font-weight: lighter;
       color: #323232;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      padding-left: 0; }
   main .buttons {
     height: 100%;
     width: 100%;
@@ -94,18 +96,18 @@ main {
         cursor: pointer;
         border-radius: 25px;
         background-color: black;
-        width: 200px;
+        width: 220px;
         height: 50px;
         text-align: center;
         color: white; }
         main .buttons .buttons-wrapper .google_store .logo {
           float: left;
           padding-top: 10px;
-          padding-left: 20px; }
+          padding-left: 26px; }
         main .buttons .buttons-wrapper .google_store .logo-text {
           margin: 0;
-          padding-top: 7px;
-          padding-right: 20px;
+          padding-top: 6px;
+          padding-right: 39px;
           float: right;
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
@@ -125,16 +127,16 @@ main {
         cursor: pointer;
         border-radius: 25px;
         background-color: white;
-        width: 200px;
+        width: 220px;
         height: 50px; }
         main .buttons .buttons-wrapper .apple_store .logo {
           float: left;
-          padding-top: 8px;
-          padding-left: 20px; }
+          padding-top: 9px;
+          padding-left: 26px; }
         main .buttons .buttons-wrapper .apple_store .logo-text {
           margin: 0;
-          padding-top: 7px;
-          padding-right: 20px;
+          padding-top: 6px;
+          padding-right: 39px;
           float: right;
           font-size: 14px;
           font-family: 'Open Sans Regular', sans-serif;
@@ -153,16 +155,16 @@ main {
         cursor: pointer;
         border-radius: 25px;
         background-color: white;
-        width: 200px;
+        width: 220px;
         height: 50px; }
         main .buttons .buttons-wrapper .chrome_store .logo {
           float: left;
           padding-top: 10px;
-          padding-left: 20px; }
+          padding-left: 26px; }
         main .buttons .buttons-wrapper .chrome_store .logo-text {
           margin: 0;
-          padding-top: 7px;
-          padding-right: 20px;
+          padding-top: 6px;
+          padding-right: 39px;
           float: right;
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
@@ -182,16 +184,16 @@ main {
         cursor: pointer;
         border-radius: 25px;
         background-color: white;
-        width: 200px;
+        width: 220px;
         height: 50px; }
         main .buttons .buttons-wrapper .firefox_store .logo {
           float: left;
           padding-top: 10px;
-          padding-left: 20px; }
+          padding-left: 26px; }
         main .buttons .buttons-wrapper .firefox_store .logo-text {
           margin: 0;
-          padding-top: 7px;
-          padding-right: 20px;
+          padding-top: 6px;
+          padding-right: 39px;
           float: right;
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
