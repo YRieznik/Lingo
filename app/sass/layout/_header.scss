@@ -130,19 +130,32 @@ main {
         background-color: white;
         width: 220px;
         height: 55px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: nowrap;
         .logo {
-          float: left;
+          /*float: left;
           padding-top: 9px;
-          padding-left: 26px;
+          padding-left: 26px;*/
+          width: 24px;
+          height: 30px;
+
+          align-self: center;
+
         }
         .logo-text {
-          margin: 0;
+          /*margin: 0;
           padding-top: 8px;
           padding-right: 39px;
           float: right;
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
+          color: lightgray;*/
+          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
           color: lightgray;
+          align-self: center;
         }
         .logo-text::after {
           content: "APP STORE";
