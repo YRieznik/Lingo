@@ -24,6 +24,22 @@
         font-size: 13px;
         color: #0b91a0; }
 
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, em, img, strong, sub, sup, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, footer, header, hgroup,
+menu, nav, output, section, time {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+* {
+  box-sizing: border-box; }
+
 main {
   background: url(../img/newbg.jpg);
   background-repeat: no-repeat;
@@ -90,8 +106,7 @@ main {
       height: 200px;
       display: flex;
       justify-content: space-between;
-      flex-wrap: wrap;
-      padding-left: 50px; }
+      flex-wrap: wrap; }
       main .buttons .buttons-wrapper .google_store {
         cursor: pointer;
         border-radius: 25px;
@@ -128,18 +143,18 @@ main {
         border-radius: 25px;
         background-color: white;
         width: 220px;
-        height: 50px; }
+        height: 55px; }
         main .buttons .buttons-wrapper .apple_store .logo {
           float: left;
           padding-top: 9px;
           padding-left: 26px; }
         main .buttons .buttons-wrapper .apple_store .logo-text {
           margin: 0;
-          padding-top: 9px;
+          padding-top: 8px;
           padding-right: 39px;
           float: right;
           font-size: 14px;
-          font-family: 'Open Sans Regular', sans-serif;
+          font-family: 'Open Sans', sans-serif;
           color: lightgray; }
         main .buttons .buttons-wrapper .apple_store .logo-text::after {
           content: "APP STORE";
@@ -159,12 +174,12 @@ main {
         height: 55px; }
         main .buttons .buttons-wrapper .chrome_store .logo {
           float: left;
-          padding-top: 12px;
-          padding-left: 26px; }
+          padding-top: 11px;
+          padding-left: 23px; }
         main .buttons .buttons-wrapper .chrome_store .logo-text {
           margin: 0;
           padding-top: 9px;
-          padding-right: 39px;
+          padding-right: 37px;
           float: right;
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
@@ -189,11 +204,11 @@ main {
         main .buttons .buttons-wrapper .firefox_store .logo {
           float: left;
           padding-top: 12px;
-          padding-left: 26px; }
+          padding-left: 23px; }
         main .buttons .buttons-wrapper .firefox_store .logo-text {
           margin: 0;
           padding-top: 9px;
-          padding-right: 39px;
+          padding-right: 37px;
           float: right;
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
@@ -302,11 +317,11 @@ html, body {
     font-size: 30px; } }
 
 main .options .corp-text {
-  padding-left: 30px;
-  padding-right: 30px; }
+  /*padding-left: 30px;
+  padding-right: 30px;*/ }
 
 main .options .corp-name {
-  padding-left: 30px; }
+  /*padding-left: 30px;*/ }
 
 /*Mobile S5 Query End*/
 /*Mobile iPhone 6, 6S, 7 and 8 Query start*/

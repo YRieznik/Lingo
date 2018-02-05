@@ -1,3 +1,19 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, em, img, strong, sub, sup, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, footer, header, hgroup,
+menu, nav, output, section, time {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+* {
+  box-sizing: border-box;
+}
 main {
   background: url(../img/newbg.jpg);
   background-repeat:  no-repeat;
@@ -72,7 +88,6 @@ main {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      padding-left: 50px;
       .google_store {
         cursor: pointer;
         border-radius: 25px;
@@ -114,7 +129,7 @@ main {
         border-radius: 25px;
         background-color: white;
         width: 220px;
-        height: 50px;
+        height: 55px;
         .logo {
           float: left;
           padding-top: 9px;
@@ -122,11 +137,11 @@ main {
         }
         .logo-text {
           margin: 0;
-          padding-top: 9px;
+          padding-top: 8px;
           padding-right: 39px;
           float: right;
           font-size: 14px;
-          font-family: 'Open Sans Regular', sans-serif;
+          font-family: 'Open Sans', sans-serif;
           color: lightgray;
         }
         .logo-text::after {
@@ -150,13 +165,13 @@ main {
         height: 55px;
         .logo {
           float: left;
-          padding-top: 12px;
-          padding-left: 26px;
+          padding-top: 11px;
+          padding-left: 23px;
         }
         .logo-text {
           margin: 0;
           padding-top: 9px;
-          padding-right: 39px;
+          padding-right: 37px;
           float: right;
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
@@ -184,12 +199,12 @@ main {
         .logo {
           float: left;
           padding-top: 12px;
-          padding-left: 26px;
+          padding-left: 23px;
         }
         .logo-text {
           margin: 0;
           padding-top: 9px;
-          padding-right: 39px;
+          padding-right: 37px;
           float: right;
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
