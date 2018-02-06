@@ -49,7 +49,6 @@ main {
     justify-content: center;
     flex-direction: column;
     .sale-text {
-      padding-left: 50px;
       width: 510px;
     }
     .corp-name {
@@ -94,19 +93,20 @@ main {
         background-color: black;
         width: 220px;
         height: 55px;
-        text-align: center;
-        color: white;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: nowrap;
 
         .logo {
-          float: left;
-          padding-top: 14px;
-          padding-left: 26px;
+          width: 24px;
+          height: 30px;
+          margin-left: 20px;
+          align-self: center;
         }
         .logo-text {
-          margin: 0;
-          padding-top: 9px;
-          padding-right: 39px;
-          float: right;
+          align-self: center;
+          margin-left: 20px;
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
           color: white;
@@ -131,31 +131,22 @@ main {
         width: 220px;
         height: 55px;
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-start;
         flex-direction: row;
         flex-wrap: nowrap;
         .logo {
-          /*float: left;
-          padding-top: 9px;
-          padding-left: 26px;*/
           width: 24px;
           height: 30px;
-
+          margin-left: 20px;
           align-self: center;
 
         }
         .logo-text {
-          /*margin: 0;
-          padding-top: 8px;
-          padding-right: 39px;
-          float: right;
-          font-size: 14px;
-          font-family: 'Open Sans', sans-serif;
-          color: lightgray;*/
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
           color: lightgray;
           align-self: center;
+          margin-left: 20px;
         }
         .logo-text::after {
           content: "APP STORE";
@@ -176,19 +167,22 @@ main {
         background-color: white;
         width: 220px;
         height: 55px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: nowrap;
         .logo {
-          float: left;
-          padding-top: 11px;
-          padding-left: 23px;
+          width: 32px;
+          height: 32px;
+          margin-left: 20px;
+          align-self: center;
         }
         .logo-text {
-          margin: 0;
-          padding-top: 9px;
-          padding-right: 37px;
-          float: right;
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
-          color: lightgrey;
+          color: lightgray;
+          align-self: center;
+          margin-left: 20px;
         }
         .logo-text::after {
           content: "CHROME";
@@ -209,19 +203,22 @@ main {
         background-color: white;
         width: 220px;
         height: 55px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: nowrap;
         .logo {
-          float: left;
-          padding-top: 12px;
-          padding-left: 23px;
+          width: 31px;
+          height: 30px;
+          margin-left: 20px;
+          align-self: center;
         }
         .logo-text {
-          margin: 0;
-          padding-top: 9px;
-          padding-right: 37px;
-          float: right;
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
-          color: lightgrey;
+          color: lightgray;
+          align-self: center;
+          margin-left: 20px;
         }
         .logo-text::after {
           content: "FIREFOX";
