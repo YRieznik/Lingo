@@ -2,10 +2,8 @@
 
 @import "layout/header";
 
-html, body {
-  padding: 0;
-  margin: 0;
-}
+@import "components/slider/slider";
+@import "components/slider/slider-theme";
 
 @media screen and (max-width: 587px) {
   main .phone .image-wraper {
@@ -26,24 +24,6 @@ html, body {
     margin-right: 78px;
   }
 }
-/*@media screen and (max-width: 628px) {
-  main .phone .image-wraper {
-    margin-right: 0;
-    background-image: url(../img/425x500.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 514px;
-    margin-top: 50px;
-  }
-  main .phone {
-    padding-top: 0;
-  }
-  .image-wraper .slick-list {
-    width: 200px;
-    height: 350px;
-    padding-top: 75px;
-  }
-}*/
                                                           /*Mobile S5 Query Start*/
 
 
@@ -109,14 +89,6 @@ html, body {
   main .options .corp-name {
     font-size: 30px;
   }
-}
-main .options .corp-text {
-  /*padding-left: 30px;
-  padding-right: 30px;*/
-}
-
-main .options .corp-name {
-  /*padding-left: 30px;*/
 }
 
                                                     /*Mobile S5 Query End*/
@@ -266,14 +238,6 @@ and (orientation: portrait){
     padding-left: 0;
   }
 }
-/*main .options .corp-text {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-main .options .corp-name {
-  padding-left: 0;
-}*/
                                             /*Mobile Ipad 768 Query End*/
 
 /* Portrait */

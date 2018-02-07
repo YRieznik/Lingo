@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #footer {
   position: absolute;
   width: 100%;
@@ -23,19 +24,6 @@
         font-family: 'Open Sans', sans-serif;
         font-size: 13px;
         color: #0b91a0; }
-
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, em, img, strong, sub, sup, b, i, dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figure, figcaption, footer, header, hgroup,
-menu, nav, output, section, time {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
 
 * {
   box-sizing: border-box; }
@@ -150,15 +138,13 @@ main {
           width: 24px;
           height: 30px;
           margin-left: 20px;
-          align-self: center;
-          margin-top: 7px; }
+          align-self: center; }
         main .buttons .buttons-wrapper .apple_store .logo-text {
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
           color: lightgray;
           align-self: center;
-          margin-left: 20px;
-          margin-top: 7px; }
+          margin-left: 20px; }
         main .buttons .buttons-wrapper .apple_store .logo-text::after {
           content: "APP STORE";
           font-family: 'Open Sans', sans-serif;
@@ -180,13 +166,11 @@ main {
         flex-direction: row;
         flex-wrap: wrap; }
         main .buttons .buttons-wrapper .chrome_store .logo {
-          margin-top: 7px;
           width: 32px;
           height: 32px;
           margin-left: 20px;
           align-self: center; }
         main .buttons .buttons-wrapper .chrome_store .logo-text {
-          margin-top: 7px;
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
           color: lightgray;
@@ -214,13 +198,11 @@ main {
         flex-direction: row;
         flex-wrap: wrap; }
         main .buttons .buttons-wrapper .firefox_store .logo {
-          margin-top: 7px;
           width: 31px;
           height: 30px;
           margin-left: 20px;
           align-self: center; }
         main .buttons .buttons-wrapper .firefox_store .logo-text {
-          margin-top: 7px;
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
           color: lightgray;
@@ -234,37 +216,245 @@ main {
           color: lightgrey;
           float: left; }
 
-.apple_store::after {
+/*.apple_store::after {
   content: "In development";
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color: lightgrey;
   padding-left: 60px;
-  padding-top: 20px; }
-
+  padding-top: 20px;
+}
 .chrome_store::after {
   content: "In development";
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color: lightgrey;
   padding-left: 60px;
-  padding-top: 20px; }
-
+  padding-top: 20px;
+}
 .firefox_store::after {
   content: "In development";
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color: lightgrey;
   padding-left: 60px;
-  padding-top: 20px; }
-
+  padding-top: 20px;
+}*/
 .slides {
   width: 100%;
   height: 100%; }
 
-html, body {
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
+
+.slick-list {
+  padding-top: 97px;
+  margin-right: 43px;
+  position: relative;
+  width: 278px;
+  height: auto;
+  float: right;
+  display: block;
+  overflow: hidden; }
+
+.slick-list:focus {
+  outline: none; }
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand; }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: ''; }
+
+.slick-track:after {
+  clear: both; }
+
+.slick-loading .slick-track {
+  visibility: hidden; }
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px; }
+
+[dir='rtl'] .slick-slide {
+  float: right; }
+
+.slick-slide img {
+  display: block; }
+
+.slick-slide.slick-loading img {
+  display: none; }
+
+.slick-slide.dragging img {
+  pointer-events: none; }
+
+.slick-initialized .slick-slide {
+  display: block; }
+
+.slick-loading .slick-slide {
+  visibility: hidden; }
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto; }
+
+.slick-arrow.slick-hidden {
+  display: none; }
+
+/* Slider */
+.slick-loading .slick-list {
+  background: #fff url("./ajax-loader.gif") center center no-repeat; }
+
+/* Icons */
+@font-face {
+  font-family: 'slick';
+  font-weight: normal;
+  font-style: normal;
+  src: url("./fonts/slick.eot");
+  src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg"); }
+
+/* Arrows */
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
   padding: 0;
-  margin: 0; }
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent; }
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: transparent;
+  outline: none;
+  background: transparent; }
+
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+  opacity: 1; }
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: .25; }
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* Dots */
+.slick-dotted.slick-slider {
+  margin-bottom: 30px; }
+
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center; }
+
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer; }
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent; }
+
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+  outline: none; }
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1; }
+
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.slick-dots li.slick-active button:before {
+  opacity: .75; }
 
 @media screen and (max-width: 587px) {
   main .phone .image-wraper {
@@ -282,24 +472,6 @@ html, body {
     padding-top: 75px;
     margin-right: 78px; } }
 
-/*@media screen and (max-width: 628px) {
-  main .phone .image-wraper {
-    margin-right: 0;
-    background-image: url(../img/425x500.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 514px;
-    margin-top: 50px;
-  }
-  main .phone {
-    padding-top: 0;
-  }
-  .image-wraper .slick-list {
-    width: 200px;
-    height: 350px;
-    padding-top: 75px;
-  }
-}*/
 /*Mobile S5 Query Start*/
 @media screen and (max-width: 360px) {
   main .phone .image-wraper {
@@ -350,13 +522,6 @@ html, body {
 @media screen and (max-width: 360px) {
   main .options .corp-name {
     font-size: 30px; } }
-
-main .options .corp-text {
-  /*padding-left: 30px;
-  padding-right: 30px;*/ }
-
-main .options .corp-name {
-  /*padding-left: 30px;*/ }
 
 /*Mobile S5 Query End*/
 /*Mobile iPhone 6, 6S, 7 and 8 Query start*/
@@ -453,14 +618,6 @@ main .options .corp-name {
   main .buttons .buttons-wrapper {
     padding-left: 0; } }
 
-/*main .options .corp-text {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-main .options .corp-name {
-  padding-left: 0;
-}*/
 /*Mobile Ipad 768 Query End*/
 /* Portrait */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
