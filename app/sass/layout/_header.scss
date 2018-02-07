@@ -84,6 +84,9 @@ main {
         justify-content: flex-start;
         flex-direction: row;
         flex-wrap: nowrap;
+        display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-flex;
 
         .logo {
           width: 24px;
@@ -121,6 +124,9 @@ main {
         justify-content: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
+        display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-flex;
         .logo {
           width: 24px;
           height: 30px;
@@ -157,6 +163,10 @@ main {
         justify-content: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
+
+        display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-flex;
         .logo {
           width: 32px;
           height: 32px;
@@ -193,6 +203,9 @@ main {
         justify-content: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
+        display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-flex;
         .logo {
           width: 31px;
           height: 30px;

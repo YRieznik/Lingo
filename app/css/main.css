@@ -101,7 +101,12 @@ main {
         display: flex;
         justify-content: flex-start;
         flex-direction: row;
-        flex-wrap: nowrap; }
+        flex-wrap: nowrap;
+        display: -webkit-box;
+        /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;
+        /* TWEENER - IE 10 */
+        display: -webkit-flex; }
         main .buttons .buttons-wrapper .google_store .logo {
           width: 24px;
           height: 30px;
@@ -133,7 +138,12 @@ main {
         display: flex;
         justify-content: flex-start;
         flex-direction: row;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+        display: -webkit-box;
+        /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;
+        /* TWEENER - IE 10 */
+        display: -webkit-flex; }
         main .buttons .buttons-wrapper .apple_store .logo {
           width: 24px;
           height: 30px;
@@ -164,7 +174,12 @@ main {
         display: flex;
         justify-content: flex-start;
         flex-direction: row;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+        display: -webkit-box;
+        /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;
+        /* TWEENER - IE 10 */
+        display: -webkit-flex; }
         main .buttons .buttons-wrapper .chrome_store .logo {
           width: 32px;
           height: 32px;
@@ -196,7 +211,12 @@ main {
         display: flex;
         justify-content: flex-start;
         flex-direction: row;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+        display: -webkit-box;
+        /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;
+        /* TWEENER - IE 10 */
+        display: -webkit-flex; }
         main .buttons .buttons-wrapper .firefox_store .logo {
           width: 31px;
           height: 30px;
