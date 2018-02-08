@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bb0c43d-27d3-4bf4-882b-a851a815d850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/layout/_header.scss" afterPath="$PROJECT_DIR$/app/sass/layout/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.scss" afterPath="$PROJECT_DIR$/app/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,17 +27,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/layout/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="263" column="20" lean-forward="true" selection-start-line="263" selection-start-column="20" selection-end-line="263" selection-end-column="20" />
+            <state relative-caret-position="210">
+              <caret line="176" column="25" lean-forward="false" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -74,6 +70,7 @@
       <find>logo-text</find>
       <find>corp-text</find>
       <find>regular</find>
+      <find>587</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,8 +93,8 @@
         <option value="$PROJECT_DIR$/app/sass/components/slider/_slider.scss" />
         <option value="$PROJECT_DIR$/app/js/delete string.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/sass/layout/_header.scss" />
         <option value="$PROJECT_DIR$/app/sass/main.scss" />
+        <option value="$PROJECT_DIR$/app/sass/layout/_header.scss" />
       </list>
     </option>
   </component>
@@ -381,12 +378,12 @@
       <workItem from="1517811777193" duration="6384000" />
       <workItem from="1517898807321" duration="7462000" />
       <workItem from="1517984046571" duration="747000" />
-      <workItem from="1518071296986" duration="3319000" />
+      <workItem from="1518071296986" duration="3942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116526000" />
+    <option name="totallyTimeSpent" value="117149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="106" width="1722" height="850" extended-state="0" />
@@ -714,18 +711,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/layout/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="263" column="20" lean-forward="true" selection-start-line="263" selection-start-column="20" selection-end-line="263" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="125" column="3" lean-forward="false" selection-start-line="125" selection-start-column="3" selection-end-line="125" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="176" column="25" lean-forward="false" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="25" />
           <folding />
         </state>
       </provider>
