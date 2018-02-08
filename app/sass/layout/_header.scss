@@ -59,13 +59,17 @@ main {
   .buttons {
     height: 100%;
     width: 100%;
-    .development {
+    .development1 {
       /*margin: 0;
       padding: 0;
       font-family: "Open Sans Regular", sans-serif;
       font-size: 14px;
       color: lightgrey;
       padding-top: 65px;*/
+      position: absolute;
+      color: #323232;
+      top: 66%;
+      left: 70%;
     }
     .buttons-wrapper{
       margin-top: 50px;
@@ -230,6 +234,35 @@ main {
       }
     }
   }
+}
+.apple_store::after {
+  content: "In development";
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: lightgrey;
+  position: absolute;
+  margin-top: 64px;
+  margin-left: 59px;
+  /*padding-left: 60px;
+  padding-top: 20px;*/
+}
+.chrome_store::after {
+  content: "In development";
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: lightgrey;
+  margin-top: 64px;
+  margin-left: 59px;
+  position: absolute;
+}
+.firefox_store::after {
+  content: "In development";
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: lightgrey;
+  margin-top: 64px;
+  margin-left: 59px;
+  position: absolute;
 }
 /*.apple_store::after {
   content: "In development";

@@ -28,6 +28,24 @@
 
 
 @media screen and (max-width:360px) {
+  .chrome_store::after {
+    display: none;
+  }
+  .apple_store::after {
+    display: none;
+  }
+}
+@media screen and (max-width:360px) {
+  main .buttons .buttons-wrapper .firefox_store .logo-text {
+    margin-left: 13px;
+  }
+  main .buttons .buttons-wrapper .chrome_store .logo-text {
+    margin-left: 13px;
+  }
+}
+
+
+@media screen and (max-width:360px) {
   main .phone .image-wraper {
     margin-right: 0;
     background-image: url(../img/300x400.png);
@@ -100,6 +118,18 @@ and (min-device-width: 375px)
 and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait){
+  main .buttons .buttons-wrapper .firefox_store .logo-text {
+    margin-left: 13px;
+  }
+  main .buttons .buttons-wrapper .chrome_store .logo-text {
+    margin-left: 13px;
+  }
+  .chrome_store::after {
+    display: none;
+  }
+  .apple_store::after {
+    display: none;
+  }
   main .phone .image-wraper {
     margin-right: 0;
     background-image: url(../img/300x400.png);

@@ -78,13 +78,17 @@ main {
   main .buttons {
     height: 100%;
     width: 100%; }
-    main .buttons .development {
+    main .buttons .development1 {
       /*margin: 0;
       padding: 0;
       font-family: "Open Sans Regular", sans-serif;
       font-size: 14px;
       color: lightgrey;
-      padding-top: 65px;*/ }
+      padding-top: 65px;*/
+      position: absolute;
+      color: #323232;
+      top: 66%;
+      left: 70%; }
     main .buttons .buttons-wrapper {
       margin-top: 50px;
       width: 100%;
@@ -235,6 +239,35 @@ main {
           font-size: 14px;
           color: lightgrey;
           float: left; }
+
+.apple_store::after {
+  content: "In development";
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: lightgrey;
+  position: absolute;
+  margin-top: 64px;
+  margin-left: 59px;
+  /*padding-left: 60px;
+  padding-top: 20px;*/ }
+
+.chrome_store::after {
+  content: "In development";
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: lightgrey;
+  margin-top: 64px;
+  margin-left: 59px;
+  position: absolute; }
+
+.firefox_store::after {
+  content: "In development";
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: lightgrey;
+  margin-top: 64px;
+  margin-left: 59px;
+  position: absolute; }
 
 /*.apple_store::after {
   content: "In development";
@@ -494,6 +527,18 @@ main {
 
 /*Mobile S5 Query Start*/
 @media screen and (max-width: 360px) {
+  .chrome_store::after {
+    display: none; }
+  .apple_store::after {
+    display: none; } }
+
+@media screen and (max-width: 360px) {
+  main .buttons .buttons-wrapper .firefox_store .logo-text {
+    margin-left: 13px; }
+  main .buttons .buttons-wrapper .chrome_store .logo-text {
+    margin-left: 13px; } }
+
+@media screen and (max-width: 360px) {
   main .phone .image-wraper {
     margin-right: 0;
     background-image: url(../img/300x400.png);
@@ -546,6 +591,14 @@ main {
 /*Mobile S5 Query End*/
 /*Mobile iPhone 6, 6S, 7 and 8 Query start*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  main .buttons .buttons-wrapper .firefox_store .logo-text {
+    margin-left: 13px; }
+  main .buttons .buttons-wrapper .chrome_store .logo-text {
+    margin-left: 13px; }
+  .chrome_store::after {
+    display: none; }
+  .apple_store::after {
+    display: none; }
   main .phone .image-wraper {
     margin-right: 0;
     background-image: url(../img/300x400.png);
