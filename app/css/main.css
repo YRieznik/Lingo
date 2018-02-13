@@ -3,15 +3,15 @@
   position: absolute;
   width: 100%;
   height: auto; }
-  #footer .policy {
+  #footer .footer-content_company {
     padding-bottom: 20px; }
-  #footer .corp {
+  #footer .footer-content {
     text-align: center;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: lightgrey; }
-    #footer .corp .privacy::after {
+    #footer .footer-content .privacy::after {
       content: "|";
       font-size: 13px;
       margin-left: 9px;
@@ -39,7 +39,7 @@ main {
   width: 100%;
   position: relative;
   padding-bottom: 100px; }
-  main .phone {
+  main .main-content {
     position: relative;
     padding-top: 120px;
     width: 100%;
@@ -49,12 +49,12 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center; }
-    main .phone .image-wraper {
+    main .main-content .slider-container {
       background-image: url(../img/blackwhite.png);
       background-repeat: no-repeat;
       height: 700px;
       width: 600px; }
-  main .options {
+  main .info-container {
     margin-left: 5%;
     margin-top: 10px;
     width: 500px;
@@ -62,16 +62,16 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column; }
-    main .options .sale-text {
+    main .info-container .text-block {
       width: 510px; }
-    main .options .corp-name {
+    main .info-container .text-block_title {
       font-family: 'Open Sans', sans-serif;
       font-weight: bold;
       font-size: 48px;
       color: #323232;
       margin: 0;
       padding-left: 0; }
-    main .options .corp-text {
+    main .info-container .text-block_description {
       font-family: "Open Sans Light" , sans-serif;
       font-size: 18px;
       font-weight: lighter;
@@ -79,28 +79,17 @@ main {
       margin-bottom: 0;
       padding-left: 0;
       padding-top: 30px; }
-  main .buttons {
+  main .buttons-block {
     height: 100%;
     width: 100%; }
-    main .buttons .development1 {
-      /*margin: 0;
-      padding: 0;
-      font-family: "Open Sans Regular", sans-serif;
-      font-size: 14px;
-      color: lightgrey;
-      padding-top: 65px;*/
-      position: absolute;
-      color: #323232;
-      top: 66%;
-      left: 70%; }
-    main .buttons .buttons-wrapper {
+    main .buttons-block .buttons-block_wrapper {
       margin-top: 50px;
       width: 100%;
       height: 200px;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap; }
-      main .buttons .buttons-wrapper .google_store {
+      main .buttons-block .buttons-block_wrapper .google_store {
         cursor: pointer;
         border-radius: 25px;
         background-color: black;
@@ -111,29 +100,27 @@ main {
         flex-direction: row;
         flex-wrap: nowrap;
         display: -webkit-box;
-        /* OLD - iOS 6-, Safari 3.1-6, BB7 */
         display: -ms-flexbox;
-        /* TWEENER - IE 10 */
         display: -webkit-flex; }
-        main .buttons .buttons-wrapper .google_store .logo {
+        main .buttons-block .buttons-block_wrapper .google_store .logo {
           width: 24px;
           height: 30px;
           margin-left: 20px;
           align-self: center; }
-        main .buttons .buttons-wrapper .google_store .logo-text {
+        main .buttons-block .buttons-block_wrapper .google_store .logo-text {
           align-self: center;
           margin-left: 20px;
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
           color: white; }
-        main .buttons .buttons-wrapper .google_store .logo-text::after {
+        main .buttons-block .buttons-block_wrapper .google_store .logo-text::after {
           content: "GOOGLE PLAY";
           font-family: 'Open Sans', sans-serif;
           font-weight: bold;
           font-size: 14px;
           color: white;
           padding-right: 15px; }
-      main .buttons .buttons-wrapper .apple_store {
+      main .buttons-block .buttons-block_wrapper .apple_store {
         margin-right: 30px;
         border-width: 1px;
         border-color: grey;
@@ -148,29 +135,27 @@ main {
         flex-direction: row;
         flex-wrap: wrap;
         display: -webkit-box;
-        /* OLD - iOS 6-, Safari 3.1-6, BB7 */
         display: -ms-flexbox;
-        /* TWEENER - IE 10 */
         display: -webkit-flex; }
-        main .buttons .buttons-wrapper .apple_store .logo {
+        main .buttons-block .buttons-block_wrapper .apple_store .logo {
           width: 24px;
           height: 30px;
           margin-left: 20px;
           align-self: center; }
-        main .buttons .buttons-wrapper .apple_store .logo-text {
+        main .buttons-block .buttons-block_wrapper .apple_store .logo-text {
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
           color: lightgray;
           align-self: center;
           margin-left: 20px; }
-        main .buttons .buttons-wrapper .apple_store .logo-text::after {
+        main .buttons-block .buttons-block_wrapper .apple_store .logo-text::after {
           content: "APP STORE";
           font-family: 'Open Sans', sans-serif;
           font-weight: bold;
           font-size: 14px;
           color: lightgrey;
           float: left; }
-      main .buttons .buttons-wrapper .chrome_store {
+      main .buttons-block .buttons-block_wrapper .chrome_store {
         border-width: 1px;
         border-color: grey;
         border-style: solid;
@@ -184,29 +169,27 @@ main {
         flex-direction: row;
         flex-wrap: wrap;
         display: -webkit-box;
-        /* OLD - iOS 6-, Safari 3.1-6, BB7 */
         display: -ms-flexbox;
-        /* TWEENER - IE 10 */
         display: -webkit-flex; }
-        main .buttons .buttons-wrapper .chrome_store .logo {
+        main .buttons-block .buttons-block_wrapper .chrome_store .logo {
           width: 32px;
           height: 32px;
           margin-left: 18px;
           align-self: center; }
-        main .buttons .buttons-wrapper .chrome_store .logo-text {
+        main .buttons-block .buttons-block_wrapper .chrome_store .logo-text {
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
           color: lightgray;
           align-self: center;
           margin-left: 16px; }
-        main .buttons .buttons-wrapper .chrome_store .logo-text::after {
+        main .buttons-block .buttons-block_wrapper .chrome_store .logo-text::after {
           content: "CHROME";
           font-family: 'Open Sans', sans-serif;
           font-weight: bold;
           font-size: 14px;
           color: lightgrey;
           float: left; }
-      main .buttons .buttons-wrapper .firefox_store {
+      main .buttons-block .buttons-block_wrapper .firefox_store {
         margin-right: 30px;
         border-width: 1px;
         border-color: grey;
@@ -221,22 +204,20 @@ main {
         flex-direction: row;
         flex-wrap: wrap;
         display: -webkit-box;
-        /* OLD - iOS 6-, Safari 3.1-6, BB7 */
         display: -ms-flexbox;
-        /* TWEENER - IE 10 */
         display: -webkit-flex; }
-        main .buttons .buttons-wrapper .firefox_store .logo {
+        main .buttons-block .buttons-block_wrapper .firefox_store .logo {
           width: 31px;
           height: 30px;
           margin-left: 18px;
           align-self: center; }
-        main .buttons .buttons-wrapper .firefox_store .logo-text {
+        main .buttons-block .buttons-block_wrapper .firefox_store .logo-text {
           font-size: 14px;
           font-family: 'Open Sans', sans-serif;
           color: lightgray;
           align-self: center;
           margin-left: 16px; }
-        main .buttons .buttons-wrapper .firefox_store .logo-text::after {
+        main .buttons-block .buttons-block_wrapper .firefox_store .logo-text::after {
           content: "FIREFOX";
           font-family: 'Open Sans', sans-serif;
           font-weight: bold;
@@ -251,9 +232,7 @@ main {
   color: lightgrey;
   position: absolute;
   margin-top: 64px;
-  margin-left: 59px;
-  /*padding-left: 60px;
-  padding-top: 20px;*/ }
+  margin-left: 59px; }
 
 .chrome_store::after {
   content: "In development";
@@ -272,34 +251,6 @@ main {
   margin-top: 64px;
   margin-left: 59px;
   position: absolute; }
-
-/*.apple_store::after {
-  content: "In development";
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  color: lightgrey;
-  padding-left: 60px;
-  padding-top: 20px;
-}
-.chrome_store::after {
-  content: "In development";
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  color: lightgrey;
-  padding-left: 60px;
-  padding-top: 20px;
-}
-.firefox_store::after {
-  content: "In development";
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  color: lightgrey;
-  padding-left: 60px;
-  padding-top: 20px;
-}*/
-.slides {
-  width: 100%;
-  height: 100%; }
 
 /* Slider */
 .slick-slider {
@@ -325,6 +276,9 @@ main {
   float: right;
   display: block;
   overflow: hidden; }
+  .slick-list .slides {
+    width: 100%;
+    height: 100%; }
 
 .slick-list:focus {
   outline: none; }
@@ -514,18 +468,18 @@ main {
   opacity: .75; }
 
 @media screen and (max-width: 1174px) {
-  main .options {
+  main .info-container {
     margin-left: 0; } }
 
 @media screen and (max-width: 640px) {
-  main .phone .image-wraper {
+  main .main-content .slider-container {
     margin-right: 0;
     background-image: url(../img/425x500.png);
     background-repeat: no-repeat;
     height: 500px;
     margin-top: 50px;
     background-position: center; }
-  main .options {
+  main .info-container {
     margin-left: 0; }
   .slick-list {
     padding-top: 57px;
@@ -537,7 +491,7 @@ main {
     overflow: hidden; } }
 
 @media screen and (max-width: 630px) {
-  main .phone .image-wraper {
+  main .main-content .slider-container {
     margin-right: 0;
     background-image: url(../img/425x500.png);
     background-repeat: no-repeat;
@@ -555,7 +509,7 @@ main {
     overflow: hidden; } }
 
 @media screen and (max-width: 537px) {
-  main .phone .image-wraper {
+  main .main-content .slider-container {
     margin-right: 0;
     background-image: url(../img/425x500.png);
     background-repeat: no-repeat;
@@ -572,43 +526,43 @@ main {
 /*Mobile S5 Query Start*/
 /* Portrait */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
-  main .phone .image-wraper {
+  main .main-content .slider-container {
     background-image: url(../img/300x400.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 420px;
     margin-top: 40px; }
-  main .options {
+  main .info-container {
     margin-left: 0; }
-  .image-wraper .slick-list {
+  .slider-container .slick-list {
     width: 159px;
     height: 350px;
     padding-top: 61px;
     margin-right: 36px; }
-  main .options .corp-text {
+  main .info-container .text-block_description {
     font-size: 16px;
     padding-top: 20px;
     padding-bottom: 20px; }
-  main .options .corp-name {
+  main .info-container .text-block_title {
     font-size: 40px; }
-  main .phone {
+  main .main-content {
     padding-top: 0; }
-  main .buttons .buttons-wrapper {
+  main .buttons-block .buttons-block_wrapper {
     width: 100%;
     height: 60%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 0; }
-  main .buttons .buttons-wrapper .apple_store {
+  main .buttons-block .buttons-block_wrapper .apple_store {
     margin-right: 0;
     margin-top: 10px;
     margin-bottom: 10px; }
-  main .buttons .buttons-wrapper .firefox_store {
+  main .buttons-block .buttons-block_wrapper .firefox_store {
     margin-right: 0;
     margin-top: 10px;
     margin-bottom: 10px; }
-  main .options .sale-text {
+  main .info-container .text-blockcorp {
     align-self: center;
     width: 90%; }
   .slick-dotted.slick-slider {
@@ -617,148 +571,148 @@ main {
     display: none; }
   .apple_store::after {
     display: none; }
-  #footer .corp {
+  #footer .footer-content {
     padding-bottom: 30px; }
-  #footer .corp .policy {
+  #footer .footer-content .footer-content_company {
     padding-bottom: 20px; } }
 
 /*Mobile S5 Query End*/
 /*Mobile iPhone 6, 6S, 7 and 8 Query start*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  main .buttons .buttons-wrapper .firefox_store .logo-text {
+  main .buttons-block .buttons-block_wrapper .firefox_store .logo-text {
     margin-left: 13px; }
-  main .buttons .buttons-wrapper .chrome_store .logo-text {
+  main .buttons-block .buttons-block_wrapper .chrome_store .logo-text {
     margin-left: 13px; }
   .chrome_store::after {
     display: none; }
   .apple_store::after {
     display: none; }
-  main .phone .image-wraper {
+  main .main-content .slider-container {
     margin-right: 0;
     background-image: url(../img/300x400.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 420px;
     margin-top: 50px; }
-  main .options {
+  main .info-container {
     margin-left: 0; }
-  .image-wraper .slick-list {
+  .slider-container .slick-list {
     width: 159px;
     height: 350px;
     padding-top: 61px;
     margin-right: 42px; }
-  main .options .sale-text {
+  main .info-container .text-blockcorp {
     align-self: center;
     width: 90%; }
-  main .phone {
+  main .main-content {
     padding-top: 0; }
-  main .buttons .buttons-wrapper {
+  main .buttons-block .buttons-block_wrapper {
     height: 60%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 0; }
-  main .buttons .buttons-wrapper .apple_store {
+  main .buttons-block .buttons-block_wrapper .apple_store {
     margin-right: 0;
     margin-top: 10px;
     margin-bottom: 10px; }
-  main .buttons .buttons-wrapper .firefox_store {
+  main .buttons-block .buttons-block_wrapper .firefox_store {
     margin-right: 0;
     margin-top: 10px;
     margin-bottom: 10px; }
-  main .options .corp-text {
+  main .info-container .text-block_description {
     font-size: 16px;
     padding-top: 20px;
     padding-bottom: 20px; }
-  main .options .corp-name {
+  main .info-container .text-block_title {
     font-size: 40px; }
-  main .options .sale-text {
+  main .info-container .text-blockcorp {
     align-self: center;
     width: 90%; }
   #footer .corp {
     padding-bottom: 30px; }
-  #footer .corp .policy {
+  #footer .corp .footer-content_company {
     padding-bottom: 20px; } }
 
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  main .buttons .buttons-wrapper {
+  main .buttons-block .buttons-block_wrapper {
     padding-left: 30px; }
-  main .options {
+  main .info-container {
     margin-left: 0; } }
 
-/*Mobile Iphone 7 Query End*/
-/*Mobile Iphone 7plus Query start*/
+/*Mobile Imain-content 7 Query End*/
+/*Mobile Imain-content 7plus Query start*/
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-  main .phone .image-wraper {
+  main .main-content .slider-container {
     margin-right: 0;
     background-image: url(../img/425x500.png);
     background-repeat: no-repeat;
     height: 500px;
     margin-top: 50px;
     background-position: center; }
-  main .options {
+  main .info-container {
     margin-left: 0; }
-  .image-wraper .slick-list {
+  .slider-container .slick-list {
     width: 196px;
     height: 415px;
     padding-top: 68px;
     margin-right: 29px; }
-  main .options .sale-text {
+  main .info-container .text-blockcorp {
     align-self: center;
     width: 90%; }
-  main .options .corp-text {
+  main .info-container .text-block_description {
     font-size: 16px;
     padding-top: 20px;
     padding-bottom: 20px; }
-  main .options .corp-name {
+  main .info-container .text-block_title {
     font-size: 40px; }
-  main .phone {
+  main .main-content {
     padding-top: 0; }
-  main .buttons .buttons-wrapper {
+  main .buttons-block .buttons-block_wrapper {
     width: 100%;
     height: 60%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding-left: 0; }
-  main .buttons .buttons-wrapper .apple_store {
+  main .buttons-block .buttons-block_wrapper .apple_store {
     margin-right: 0; }
-  main .buttons .buttons-wrapper .firefox_store {
+  main .buttons-block .buttons-block_wrapper .firefox_store {
     margin-right: 0; } }
 
 /* Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  main .options {
+  main .info-container {
     margin-left: 0; } }
 
-/*Mobile Iphone 7plus Query End*/
+/*Mobile Imain-content 7plus Query End*/
 /* ----------- iPhone X ----------- */
 /* Portrait */
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  main .options {
+  main .info-container {
     margin-left: 0; } }
 
 /*Mobile Ipad 768 Query Start*/
 /* Portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-  main .options .sale-text {
+  main .info-container .text-blockcorp {
     padding-left: 0; }
-  main .buttons .buttons-wrapper {
+  main .buttons-block .buttons-block_wrapper {
     padding-left: 0; }
-  main .options {
+  main .info-container {
     margin-left: 0; } }
 
 /* Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-  main .options {
+  main .info-container {
     margin-left: 0; } }
 
 /*Mobile Ipad 768 Query End*/
 /* Portrait */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-  main .buttons .buttons-wrapper {
+  main .buttons-block .buttons-block_wrapper {
     width: 97%;
     height: 60%;
     display: flex;
@@ -768,11 +722,11 @@ main {
 
 /*Mobile Ipad 1024 Query Start*/
 @media screen and (max-width: 1024px) {
-  main .options .sale-text {
+  main .info-container .text-blockcorp {
     padding-left: 0; } }
 
 @media screen and (max-width: 1024px) {
-  main .buttons .buttons-wrapper {
+  main .buttons-block .buttons-block_wrapper {
     padding-left: 0; } }
 
 /*Mobile Ipad 1024 Query End*/

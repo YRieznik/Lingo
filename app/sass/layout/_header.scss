@@ -11,7 +11,7 @@ main {
   width: 100%;
   position: relative;
   padding-bottom: 100px;
-  .phone {
+  .main-content {
     position: relative;
     padding-top: 120px;
     width: 100%;
@@ -21,7 +21,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    .image-wraper{
+    .slider-container{
       background-image: url(../img/blackwhite.png);
       background-repeat: no-repeat;
       height: 700px;
@@ -29,7 +29,7 @@ main {
     }
 
   }
-  .options {
+  .info-container {
     margin-left: 5%;
     margin-top: 10px;
     width: 500px;
@@ -37,10 +37,10 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    .sale-text {
+    .text-block {
       width: 510px;
     }
-    .corp-name {
+    .text-block_title {
       font-family: 'Open Sans', sans-serif;
       font-weight: bold;
       font-size: 48px;
@@ -48,7 +48,7 @@ main {
       margin: 0;
       padding-left: 0;
     }
-    .corp-text {
+    .text-block_description {
       font-family: "Open Sans Light" , sans-serif;
       font-size: 18px;
       font-weight: lighter;
@@ -59,22 +59,10 @@ main {
 
     }
   }
-  .buttons {
+  .buttons-block {
     height: 100%;
     width: 100%;
-    .development1 {
-      /*margin: 0;
-      padding: 0;
-      font-family: "Open Sans Regular", sans-serif;
-      font-size: 14px;
-      color: lightgrey;
-      padding-top: 65px;*/
-      position: absolute;
-      color: #323232;
-      top: 66%;
-      left: 70%;
-    }
-    .buttons-wrapper{
+    .buttons-block_wrapper {
       margin-top: 50px;
       width: 100%;
       height: 200px;
@@ -91,10 +79,9 @@ main {
         justify-content: flex-start;
         flex-direction: row;
         flex-wrap: nowrap;
-        display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: -webkit-flex;
-
         .logo {
           width: 24px;
           height: 30px;
@@ -131,8 +118,8 @@ main {
         justify-content: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
-        display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: -webkit-flex;
         .logo {
           width: 24px;
@@ -157,7 +144,6 @@ main {
         }
       }
       .chrome_store {
-
         border-width: 1px;
         border-color: grey;
         border-style: solid;
@@ -171,8 +157,8 @@ main {
         flex-direction: row;
         flex-wrap: wrap;
 
-        display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: -webkit-flex;
         .logo {
           width: 32px;
@@ -210,8 +196,8 @@ main {
         justify-content: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
-        display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: -webkit-flex;
         .logo {
           width: 31px;
@@ -246,8 +232,6 @@ main {
   position: absolute;
   margin-top: 64px;
   margin-left: 59px;
-  /*padding-left: 60px;
-  padding-top: 20px;*/
 }
 .chrome_store::after {
   content: "In development";
@@ -266,33 +250,4 @@ main {
   margin-top: 64px;
   margin-left: 59px;
   position: absolute;
-}
-/*.apple_store::after {
-  content: "In development";
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  color: lightgrey;
-  padding-left: 60px;
-  padding-top: 20px;
-}
-.chrome_store::after {
-  content: "In development";
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  color: lightgrey;
-  padding-left: 60px;
-  padding-top: 20px;
-}
-.firefox_store::after {
-  content: "In development";
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  color: lightgrey;
-  padding-left: 60px;
-  padding-top: 20px;
-}*/
-.slides {
-  width: 100%;
-  height: 100%;
-
 }

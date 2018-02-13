@@ -6,12 +6,12 @@
 @import "components/slider/slider-theme";
 
 @media screen and (max-width: 1174px) {
-  main .options {
+  main .info-container {
     margin-left: 0;
   }
 }
 @media screen and (max-width: 640px) {
-  main .phone .image-wraper {
+  main .main-content .slider-container {
     margin-right: 0;
     background-image: url(../img/425x500.png);
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
     background-position: center;
 
   }
-  main .options {
+  main .info-container {
     margin-left: 0;
   }
   .slick-list {
@@ -35,7 +35,7 @@
 
 }
 @media screen and (max-width: 630px) {
-  main .phone .image-wraper {
+  main .main-content .slider-container {
     margin-right: 0;
     background-image: url(../img/425x500.png);
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@
 
 }
 @media screen and (max-width: 537px) {
-  main .phone .image-wraper {
+  main .main-content .slider-container {
     margin-right: 0;
     background-image: url(../img/425x500.png);
     background-repeat: no-repeat;
@@ -85,34 +85,34 @@ and (device-width: 360px)
 and (device-height: 640px)
 and (-webkit-device-pixel-ratio: 3)
 and (orientation: portrait) {
-  main .phone .image-wraper {
+  main .main-content .slider-container {
     background-image: url(../img/300x400.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 420px;
     margin-top: 40px;
   }
-  main .options {
+  main .info-container {
     margin-left: 0;
   }
-  .image-wraper .slick-list {
+  .slider-container .slick-list {
     width: 159px;
     height: 350px;
     padding-top: 61px;
     margin-right: 36px;
   }
-  main .options .corp-text {
+  main .info-container .text-block_description {
     font-size: 16px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  main .options .corp-name {
+  main .info-container .text-block_title {
     font-size: 40px;
   }
-  main .phone {
+  main .main-content {
     padding-top: 0;
   }
-  main .buttons .buttons-wrapper {
+  main .buttons-block .buttons-block_wrapper {
     width: 100%;
     height: 60%;
     display: flex;
@@ -120,17 +120,17 @@ and (orientation: portrait) {
     flex-wrap: wrap;
     margin-top: 0;
   }
-  main .buttons .buttons-wrapper .apple_store {
+  main .buttons-block .buttons-block_wrapper .apple_store {
     margin-right: 0;
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  main .buttons .buttons-wrapper .firefox_store {
+  main .buttons-block .buttons-block_wrapper .firefox_store {
     margin-right: 0;
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  main .options .sale-text {
+  main .info-container .text-blockcorp {
     align-self: center;
     width: 90%;
 
@@ -144,10 +144,10 @@ and (orientation: portrait) {
   .apple_store::after {
     display: none;
   }
-  #footer .corp {
+  #footer .footer-content {
     padding-bottom: 30px;
   }
-  #footer .corp .policy {
+  #footer .footer-content .footer-content_company {
     padding-bottom: 20px;
   }
 }
@@ -161,10 +161,10 @@ and (min-device-width: 375px)
 and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait){
-  main .buttons .buttons-wrapper .firefox_store .logo-text {
+  main .buttons-block .buttons-block_wrapper .firefox_store .logo-text {
     margin-left: 13px;
   }
-  main .buttons .buttons-wrapper .chrome_store .logo-text {
+  main .buttons-block .buttons-block_wrapper .chrome_store .logo-text {
     margin-left: 13px;
   }
   .chrome_store::after {
@@ -173,7 +173,7 @@ and (orientation: portrait){
   .apple_store::after {
     display: none;
   }
-  main .phone .image-wraper {
+  main .main-content .slider-container {
     margin-right: 0;
     background-image: url(../img/300x400.png);
     background-repeat: no-repeat;
@@ -181,49 +181,49 @@ and (orientation: portrait){
     height: 420px;
     margin-top: 50px;
   }
-  main .options {
+  main .info-container {
     margin-left: 0;
   }
-  .image-wraper .slick-list {
+  .slider-container .slick-list {
     width: 159px;
     height: 350px;
     padding-top: 61px;
     margin-right: 42px;
   }
-  main .options .sale-text {
+  main .info-container .text-blockcorp {
     align-self: center;
     width: 90%;
 
   }
-  main .phone {
+  main .main-content {
     padding-top: 0;
   }
-  main .buttons .buttons-wrapper {
+  main .buttons-block .buttons-block_wrapper {
     height: 60%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 0;
   }
-  main .buttons .buttons-wrapper .apple_store {
+  main .buttons-block .buttons-block_wrapper .apple_store {
     margin-right: 0;
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  main .buttons .buttons-wrapper .firefox_store {
+  main .buttons-block .buttons-block_wrapper .firefox_store {
     margin-right: 0;
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  main .options .corp-text {
+  main .info-container .text-block_description {
     font-size: 16px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  main .options .corp-name {
+  main .info-container .text-block_title {
     font-size: 40px;
   }
-  main .options .sale-text {
+  main .info-container .text-blockcorp {
     align-self: center;
     width: 90%;
 
@@ -231,7 +231,7 @@ and (orientation: portrait){
   #footer .corp {
     padding-bottom: 30px;
   }
-  #footer .corp .policy {
+  #footer .corp .footer-content_company {
     padding-bottom: 20px;
   }
 }
@@ -241,24 +241,24 @@ and (min-device-width: 375px)
 and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape) {
-  main .buttons .buttons-wrapper {
+  main .buttons-block .buttons-block_wrapper {
     padding-left: 30px; // landscape
   }
-  main .options {
+  main .info-container {
     margin-left: 0;
   }
 
 }
 
-                                                /*Mobile Iphone 7 Query End*/
-                                              /*Mobile Iphone 7plus Query start*/
+                                                /*Mobile Imain-content 7 Query End*/
+                                              /*Mobile Imain-content 7plus Query start*/
 
 @media only screen
 and (min-device-width: 414px)
 and (max-device-width: 736px)
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: portrait){
-  main .phone .image-wraper {
+  main .main-content .slider-container {
     margin-right: 0;
     background-image: url(../img/425x500.png);
     background-repeat: no-repeat;
@@ -266,33 +266,33 @@ and (orientation: portrait){
     margin-top: 50px;
     background-position: center;
   }
-  main .options {
+  main .info-container {
     margin-left: 0;
   }
-  .image-wraper .slick-list {
+  .slider-container .slick-list {
     width: 196px;
     height: 415px;
     padding-top: 68px;
     margin-right: 29px;
   }
-  main .options .sale-text {
+  main .info-container .text-blockcorp {
     align-self: center;
     width: 90%;
 
   }
 
-  main .options .corp-text {
+  main .info-container .text-block_description {
     font-size: 16px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  main .options .corp-name {
+  main .info-container .text-block_title {
     font-size: 40px;
   }
-  main .phone {
+  main .main-content {
     padding-top: 0;
   }
-  main .buttons .buttons-wrapper {
+  main .buttons-block .buttons-block_wrapper {
     width: 100%;
     height: 60%;
     display: flex;
@@ -300,11 +300,11 @@ and (orientation: portrait){
     flex-wrap: wrap;
     padding-left: 0;
   }
-  main .buttons .buttons-wrapper .apple_store {
+  main .buttons-block .buttons-block_wrapper .apple_store {
     margin-right: 0;
 
   }
-  main .buttons .buttons-wrapper .firefox_store {
+  main .buttons-block .buttons-block_wrapper .firefox_store {
     margin-right: 0;
 
   }
@@ -315,11 +315,11 @@ and (min-device-width: 414px)
 and (max-device-width: 736px)
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: landscape) {
-  main .options {
+  main .info-container {
     margin-left: 0;
   }
 }
-                                            /*Mobile Iphone 7plus Query End*/
+                                            /*Mobile Imain-content 7plus Query End*/
 
 
                                             /* ----------- iPhone X ----------- */
@@ -330,7 +330,7 @@ and (min-device-width: 375px)
 and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: portrait) {
-  .image-wraper .slick-list {
+  .slider-container .slick-list {
 
 
   }
@@ -341,7 +341,7 @@ and (min-device-width: 375px)
 and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: landscape) {
-  main .options {
+  main .info-container {
     margin-left: 0;
   }
 }
@@ -352,13 +352,13 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 1) {
-  main .options .sale-text {
+  main .info-container .text-blockcorp {
     padding-left: 0;
   }
-  main .buttons .buttons-wrapper {
+  main .buttons-block .buttons-block_wrapper {
     padding-left: 0;
   }
-  main .options {
+  main .info-container {
     margin-left: 0;
   }
 }
@@ -368,7 +368,7 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 2) {
-  main .options {
+  main .info-container {
     margin-left: 0;
   }
 }
@@ -388,7 +388,7 @@ and (min-device-width: 414px)
 and (max-device-width: 736px)
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: portrait) {
-  main .buttons .buttons-wrapper {
+  main .buttons-block .buttons-block_wrapper {
     width: 97%;
     height: 60%;
     display: flex;
@@ -400,12 +400,12 @@ and (orientation: portrait) {
                                             /*Mobile Ipad 1024 Query Start*/
 
 @media screen and (max-width: 1024px) {
-  main .options .sale-text {
+  main .info-container .text-blockcorp {
     padding-left: 0;
   }
 }
 @media screen and (max-width: 1024px) {
-  main .buttons .buttons-wrapper {
+  main .buttons-block .buttons-block_wrapper {
     padding-left: 0;
   }
 }
