@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.slider-container').slick({
+    $('.image-wraper').slick({
         dots: true,
         arrow: false,
         autoplay:true,

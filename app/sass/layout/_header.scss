@@ -11,7 +11,7 @@ main {
   width: 100%;
   position: relative;
   padding-bottom: 100px;
-  .main-content {
+  .phone {
     position: relative;
     padding-top: 120px;
     width: 100%;
@@ -21,7 +21,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    .slider-container{
+    .image-wraper{
       background-image: url(../img/blackwhite.png);
       background-repeat: no-repeat;
       height: 700px;
@@ -29,7 +29,7 @@ main {
     }
 
   }
-  .info-container {
+  .options {
     margin-left: 5%;
     margin-top: 10px;
     width: 500px;
@@ -37,10 +37,10 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    .text-block {
+    .sale-text {
       width: 510px;
     }
-    .text-block_title {
+    .corp-name {
       font-family: 'Open Sans', sans-serif;
       font-weight: bold;
       font-size: 48px;
@@ -48,7 +48,7 @@ main {
       margin: 0;
       padding-left: 0;
     }
-    .text-block_description {
+    .corp-text {
       font-family: "Open Sans Light" , sans-serif;
       font-size: 18px;
       font-weight: lighter;
@@ -59,10 +59,10 @@ main {
 
     }
   }
-  .buttons-block {
+  .buttons {
     height: 100%;
     width: 100%;
-    .buttons-block_wrapper {
+    .buttons-wrapper{
       margin-top: 50px;
       width: 100%;
       height: 200px;
@@ -82,6 +82,7 @@ main {
         display: -webkit-box;
         display: -ms-flexbox;
         display: -webkit-flex;
+
         .logo {
           width: 24px;
           height: 30px;
@@ -144,6 +145,7 @@ main {
         }
       }
       .chrome_store {
+
         border-width: 1px;
         border-color: grey;
         border-style: solid;
@@ -250,4 +252,9 @@ main {
   margin-top: 64px;
   margin-left: 59px;
   position: absolute;
+}
+.slides {
+  width: 100%;
+  height: 100%;
+
 }
